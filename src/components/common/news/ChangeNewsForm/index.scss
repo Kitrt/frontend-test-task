@@ -1,0 +1,40 @@
+.news-create {
+  &__title {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &__block {
+    margin-top: 12px;
+  }
+
+  &__inp {
+    width: 100%;
+    padding: 5px;
+    border-width: 1px;
+
+    &--error {
+      border-color: red;
+    }
+  }
+
+  &__txt {
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    resize: none;
+
+    &--error {
+      border-color: red;
+    }
+  }
+
+  &__btn {
+    display: block;
+    margin-left: auto;
+    margin-top: 12px;
+    padding: 5px;
+    cursor: pointer;
+  }
+}
